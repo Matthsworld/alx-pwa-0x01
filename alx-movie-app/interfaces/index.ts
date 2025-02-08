@@ -9,6 +9,12 @@ export interface MovieProps {
     results: MovieProps[];
   }
 
-  export { ButtonProps } from "./button";
-
-  export { ComponentProps } from "./componentProps";
+  export interface ButtonProps {
+    title: string;
+    action?: () => void;  // Optional function
+  }  
+  
+  export interface ComponentProps {
+    children: React.ReactNode;
+  }
+  
