@@ -8,4 +8,7 @@ export interface MovieProps {
   export interface MoviesProps {
     results: MovieProps[];
   }
-  
+
+  export { ButtonProps } from "./button";
+
+  export { ComponentProps } from "./componentProps";

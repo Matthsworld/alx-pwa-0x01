@@ -5,3 +5,9 @@ const Button: React.FC = () => {
 };
 
 export default Button;
+
+export interface ButtonProps {
+  title: string;
+  action: () => void;
+}
+
